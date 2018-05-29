@@ -80,7 +80,7 @@ npm install --global npm@5.6.0 && \
 npm install --global @angular/cli electron
 
 USER postgres
-RUN /etc/init.d/postgresql start && psql --command "CREATE USER sa WITH SUPERUSER PASSWORD '123';"
+RUN /etc/init.d/postgresql start && psql --command "ALTER USER postgres WITH PASSWORD '123';"
 
 USER root
 RUN echo "host all  all    0.0.0.0/0  md5" >> /etc/postgresql/10/main/pg_hba.conf && \

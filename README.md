@@ -54,9 +54,9 @@ You need to identify the IP address of the Docker container running based on thi
 
 ## Warning
 
-### Since this Dockerfile contains many software development packages, there are a few things that we must be aware before using this Dockerfile:
-### 1. The internet bandwidth consumption needed to pull the packages will be quite a lot. Don't use any quota-based internet connection.
-### 2. The resulting image size of this Dockerfile will be quite a lot.
+Since this Dockerfile contains many software development packages, there are a few things that we must be aware before using this Dockerfile:
+1. The internet bandwidth consumption needed to pull the packages will be quite a lot. Don't use any quota-based internet connection.
+2. The resulting image size of this Dockerfile will be quite a lot.
 
 ## License
 
